@@ -11,7 +11,7 @@ class UrlFilesystem extends Filesystem implements UrlFilesystemInterface
      */
     protected $adapter;
 
-    public function __construct(UrlAdapterInterface $adapter, $config = null)
+    public function __construct(UrlAdapterInterface $adapter, $config = [])
     {
         parent::__construct($adapter, $config);
     }

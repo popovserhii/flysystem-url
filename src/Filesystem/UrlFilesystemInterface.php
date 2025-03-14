@@ -1,9 +1,10 @@
 <?php
 namespace Mrubiosan\FlyUrl\Filesystem;
 
-use League\Flysystem\FilesystemInterface;
+//use League\Flysystem\FilesystemInterface;
+use League\Flysystem\FilesystemOperator;
 
-interface UrlFilesystemInterface extends FilesystemInterface
+interface UrlFilesystemInterface extends FilesystemOperator
 {
     /**
      * @param $path
